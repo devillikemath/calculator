@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <title>math and phsics</title>
+    <link rel="stylesheet" href="css.css">
+    <body>
+        <div class="output">
+            <input id="answer" readonly> 
+        </div>
+        <div class="calculator1">
+            <button onclick="appendToDisplay('1')">1</button>
+            <button onclick="appendToDisplay('2')">2</button>
+            <button onclick="appendToDisplay('3')">3</button>
+            <button onclick="cleard()">C</button>
+        </div>
+        <div class="calculator2">
+            <button onclick="appendToDisplay('4')">4</button>
+            <button onclick="appendToDisplay('5')">5</button>
+            <button onclick="appendToDisplay('6')">6</button>
+            <button onclick="appendToDisplay('&divide')">&divide;</button>
+        </div>
+        <div class="calculator3">
+            <button onclick="appendToDisplay('7')">7</button>
+            <button onclick="appendToDisplay('8')">8</button>
+            <button onclick="appendToDisplay('9')">9</button>
+            <button onclick="appendToDisplay('&times')">&times</button>
+        </div>
+        <div class="calculator4">
+            <button onclick="appendToDisplay('-')">-</button>
+            <button onclick="appendToDisplay('0')">0</button>
+            <button onclick="appendToDisplay('+')">+</button>
+            <button onclick="calculateAnswer()">=</button>
+        </div>
+        <div class="delete"><button class="del" onclick="dele()">⌫</button></div>
+        <script src="math.js"></script>
+    </body>
+</html>
